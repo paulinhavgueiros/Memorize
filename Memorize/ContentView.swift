@@ -17,7 +17,7 @@ struct ContentView: View {
                 }
             }
         }
-            .padding() // padding if for outer ZStack
+            .padding() // padding is for outer ZStack
             .foregroundColor(Color.orange) // every view inside uses orange as foreground color
             .font(Font.largeTitle) // set font type to all fonts in stack
     }

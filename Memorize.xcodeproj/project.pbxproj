@@ -62,9 +62,9 @@
 			children = (
 				CA04A89125DC06E600521477 /* AppDelegate.swift */,
 				CA04A89325DC06E600521477 /* SceneDelegate.swift */,
-				CA04A89525DC06E600521477 /* ContentView.swift */,
-				CA04A8A625DC808E00521477 /* MemoryGame.swift */,
-				CA04A8A925DC823300521477 /* EmojiMemoryGame.swift */,
+				CA9848C425DDF463004CCEDC /* Model */,
+				CA9848C525DDF47B004CCEDC /* View */,
+				CA9848C825DDF512004CCEDC /* ViewModel */,
 				CA04A89725DC06E900521477 /* Assets.xcassets */,
 				CA04A89C25DC06E900521477 /* LaunchScreen.storyboard */,
 				CA04A89F25DC06E900521477 /* Info.plist */,
@@ -79,6 +79,30 @@
 				CA04A89A25DC06E900521477 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CA9848C425DDF463004CCEDC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CA04A8A625DC808E00521477 /* MemoryGame.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CA9848C525DDF47B004CCEDC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CA04A89525DC06E600521477 /* ContentView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		CA9848C825DDF512004CCEDC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CA04A8A925DC823300521477 /* EmojiMemoryGame.swift */,
+			);
+			name = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
